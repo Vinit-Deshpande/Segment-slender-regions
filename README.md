@@ -3,7 +3,7 @@ This repository contains an algorithm to segment slender regions in 3D microstru
 
 Two sample material microstructures are included namely: FOAM_MICROSTRUCTURE.mat and IWP_MICROSTRUCTURE.mat
 
-Please run the MATLAB file named Main_file.m
+Please run the MATLAB file named Main_file.m .
 The required matlab functions for the 'Main_file' are included.
 
 Tips: 1. Studying FOAM_MICROSTRUCTURE is resource intensive. If the user wishes to study the algorithm and has limited computational resources, please use IWP_MICROSTRUCTURE.
