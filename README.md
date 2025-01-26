@@ -8,6 +8,8 @@ The required matlab functions for the 'Main_file' are separately attached.
 
 Tips: 1. Studying FOAM_MICROSTRUCTURE is resource intensive. If the user wishes to study the algorithm and has limited                computational resources, please use IWP_MICROSTRUCTURE.
       2. While studying FOAM_MICROSTRUCTURE, the most resource-intensive sections are calculation of variables named                  cross_area, strut_segments and strut_pixels. If you don't           want to calculate these variables, de-activate           the corresponding sections and load the MATLAB data files namely cross_area.mat, strut_segments.mat and                      strut_pixels.mat
+
+Publication: The research work has been submitted to the Journal 'Materials and Design'. More information about the paper will be provided once published.
       3. While studying IMP_MICROSTRUCTURE, the above-mentioned variables can be quickly calculated.
       4. Please keep all the files in the same folder.
 
