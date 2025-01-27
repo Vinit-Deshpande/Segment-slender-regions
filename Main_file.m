@@ -410,7 +410,6 @@ for i=1:size(strut_segments,2)
 
     if size(strut_segments{i},1)>2
 
-        i
         [x,y,z]=ind2sub(size_ori,strut_segments{i});
 
         x=x+200;
@@ -455,11 +454,6 @@ for i=1:size(strut_segments,2)
 
         for j=1:length(strut_segments{i})
 
-            if j==1 || j==length(strut_segments{i})
-                ff=1;
-            else
-                ff=1;
-            end
             [strut_seg_coord1,strut_seg_coord2,strut_seg_coord3]=ind2sub(size(ori),strut_segments{i}(j));
             strut_seg_coord1=strut_seg_coord1+200;
             strut_seg_coord2=strut_seg_coord2+200;
