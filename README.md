@@ -17,4 +17,4 @@ INPUTS: 1. Load the  MATLAB data file with the material microstructure.
 OUTPUT: 1. If you want to see the segmented struts in FOAM_MICROSTRUCTURE, run the corresponding section in the Main_file                that will plot a chosen strut in the microstructure.
         2. If you want to see the segmented struts in IWP_MICROSTRUCTURE, use 'Volume Viewer' app in MATLAB- Import volume              'ori' which is the microstructure and then import labelled volume 'strut_region' which has the segmented struts.
 
-Publication: The research work has been submitted to the Journal 'Materials and Design'. More information about the paper will be provided once published.
+Publication: Deshpande, V. V., & Piat, R. (2025). A skeletonization based image segmentation algorithm to isolate slender regions in 3D microstructures. Materials & Design, 113765.
